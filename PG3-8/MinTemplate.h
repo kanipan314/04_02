@@ -20,10 +20,10 @@ public:
 	//ƒƒ“ƒoŠÖ”
 	T Min() {
 		if (Number1 < Number2) {
-			return static_cast<T>(Number1);
+			return static_cast<T1>(Number1);
 		}
 		else {
-			return static_cast<T>(Number2);
+			return static_cast<T1>(Number2);
 		}
 	}
 
